@@ -1,0 +1,376 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Life+Savers&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+body{
+    position: relative;
+background-image: url(32993994_840843081452.jpg);
+    background-repeat: no-repeat;    
+    background-position: left; 
+     height: 150px;
+}
+.img-1{
+    
+    max-width: 1000px;
+    display: flex;
+position: relative;
+left: 600px;
+height: 800px;
+
+}
+.img-2{
+    max-width: 30px;
+    position: relative;
+background-color: none;
+color: rgb(0, 0, 0);
+left: 2px;
+}
+.img-3{
+position: fixed;
+max-width: 30px;
+top: 15px;
+left: 1148px;
+z-index: 1000;
+}
+.img-4{
+    position: fixed;
+    max-width: 30px;
+    top: 15px;
+    left: 1205px;
+    z-index: 1000;
+}
+.img-3:hover{
+    background-color: #E35F21;
+    box-shadow: 0px 1px 10px red;
+    transition-duration: .8s;
+    border-radius: 5px;
+}
+.img-4:hover{
+    background-color: #E35F21;
+    box-shadow: 0px 1px 10px red;
+    transition-duration: .8s;
+    border-radius: 5px;
+}
+.img-5:hover{
+    background-color: #E35F21;
+    box-shadow: 0px 1px 10px red;
+    transition-duration: .8s;
+    border-radius: 5px;
+}
+.img-5{
+    position: fixed;
+    max-width: 30px;
+    top: 15px;
+    left: 1260px;
+    z-index: 1000;
+}
+
+.img-8 {
+    position: relative;
+    max-width: 190px;
+    top: -19px;
+    left: -21px;
+}
+.img-9 {
+    position: relative;
+    max-width: 110px;
+    top: 24px;
+    left: 19px;
+}
+.div-2{
+    position: relative;
+    background-color: #E35F21;
+width: 35px;
+height: 35px;
+color: white;
+left: 40px;
+border-radius: 50%;
+top: -770px;
+
+}
+.div-3{
+    box-shadow: 1px 1px 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.div-4{
+    position: relative;
+    background-color: #ffffff;
+border-radius: 50%;
+height: 150px;
+width: 150px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.141);
+left: 430px;
+top: 74px;
+}
+.div-5{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.141);
+    top: 543px;
+    left: 705px;
+}
+.div-separar{
+columns: 2;
+}
+.div-branco{
+  background-color: #EAEAEA;
+position: absolute;
+height: 800px;
+top: 800px;
+
+}
+.infor{
+    background-image: url(pexels-kseniya-lapteva-9176068.jpg);
+
+  
+    position: absolute;
+    height: 900px;
+    top: 1600px;
+    width: 100%;
+    z-index: -1px;
+    color: white;
+}
+.h1-oferecidos{
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+.h2-1{
+    position: relative;
+    color: #ef9a06;
+    width: 420px;
+    line-height: 32px;
+    font-weight: bolder;
+top: -530px;
+left: 28px;
+font-family: 'Barlow', sans-serif;
+font-size: 2em;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.049);
+}
+.h2-2{
+    color: #F29A04;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.h2-3{
+    position: absolute;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.7em;
+color: #fea305;
+left: 200px;
+top: 130px;
+}
+.h2-4{
+    position: absolute;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.7em;
+    color: #F29A04;
+    left: 600px;
+    top: 400px;
+}
+.h2-5{
+    position: absolute;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.7em;
+    color: #F29A04;     
+    left: 900px;
+    top: 700px;
+}
+.p-1{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    line-height: 27px;
+    width: 377px;
+    top: -26px;
+    left: 50px;
+    font-family: 'Life Savers';
+}
+.p-2{
+    position: relative;
+font-size: 18px;
+color: white;
+font-weight: normal;
+line-height: 27px;
+width: 377px;
+top: -480px;
+left: 30px;
+font-family: 'Barlow', sans-serif;
+}
+.p-3{
+text-align: center;
+font-family: 'Barlow', sans-serif;
+font-weight: bolder;
+color: rgba(0, 0, 0, 0.889);
+line-height: 23px;
+}
+.p-4{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.889);
+    line-height: 23px;
+}
+.p-5{
+    position: fixed;
+    color: #F29A03;
+    top: 10px;
+    left: 1060px;
+}
+.p-6{
+    left: 400px;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+color: #F29A04;
+top: 90px;
+
+}
+.p-7{
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+color: #F29A04;
+
+left: 680px;
+top: 70px;
+}
+.p-8{
+    position: absolute;
+width: 400px;
+font-family: 'Barlow', sans-serif;
+font-size: 1.2em;
+left: 200px;
+top: 180px;
+}
+
+
+    .p-9{
+        position: absolute;  
+        width: 400px;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.2em;
+        left: 600px;
+        top: 450px;
+    }
+        .p-10{
+            position: absolute;
+            width: 400px;
+            font-family: 'Barlow', sans-serif;
+            font-size: 1.2em;
+            left: 900px;
+            top: 750px;
+            z-index: 1000px;
+        }
+            .p-7{
+
+            }
+                .p-7{
+
+                }
+.a-1{
+    display: block;
+    position: relative;
+    background-color: #F29A03;
+    border-radius: 0px solid black;
+    color: black;
+    text-decoration: none;
+   padding: 18px;
+   text-align: center;
+   left: 31px;
+   top: -505px;
+    width: 140px; /* Adicione a largura desejada aqui */
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1em;
+transition-duration: .9s;
+font-weight: bolder;
+}
+
+.strong-1{
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 3px;
+    transform: rotate(20deg);
+}
+
+
+/* Estilo para a classe "custom-tooltip" */
+/* Estilo para todos os elementos <abbr> */
+/* Estilo para a classe "custom-tooltip" */
+.custom-tooltip {
+    position: relative; /* Garante que a dica de ferramenta se posicione corretamente */
+    cursor: text; /* Altera o cursor para um ícone de ajuda ao passar o mouse */
+    text-decoration: none;
+  }
+  
+  /* Estilo para o conteúdo do atributo "title" */
+  .custom-tooltip:hover::after {
+    cursor: auto;
+    content: attr(title); /* Obtém o conteúdo do atributo "title" */
+    display: block;
+    position: absolute;
+    top: 100%; /* Posiciona a dica de ferramenta abaixo do <abbr> */
+    left: 80px; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    background-color: black; /* Marrom Saddle Brown */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap; /* Impede quebras de linha */
+    opacity: 0; /* Inicialmente, a dica de ferramenta não será visível */
+    transition: opacity 0.9s; /* Adiciona uma transição suave */
+    transition-duration: 0.9s;
+  }
+  
+  /* Mostra a dica de ferramenta ao passar o mouse */
+  .custom-tooltip:hover::after {
+    opacity: 1;
+  }
+  .elemento-1{
+    position: relative;
+    height: 10px;
+    width: 200px;
+background-color: aqua;
+border-radius: 10px;
+transform: rotate(90deg);
+top: 100px;
+  }
+  .elemento-2{
+    position: relative;
+    height: 10px;
+    width: 200px;
+background-color: aqua;
+border-radius: 10px;
+transform: rotate(90deg);
+top: 335px;
+left: 400px;
+  }
+  .elemento-3{
+    position: relative;
+    height: 10px;
+    width: 200px;
+background-color: aqua;
+border-radius: 10px;
+transform: rotate(90deg);
+top: 600px;
+left: 700px;
+  }
