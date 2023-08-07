@@ -115,15 +115,15 @@ top: 70px;
   position: absolute;
   height: 1160px;
   top: 800px;
-  
+  width: 110%;
   }
   .infor{
     background-image: url(pexels-anna-nekrashevich-7946638.jpg);
     background-position: bottom;
     position: absolute;
     height: 850px;
-    top: 1961px;
-    width: 100%;
+    top: 1861px;
+    width: 110%;
     z-index: -1px;
     color: white;
 }
