@@ -321,17 +321,6 @@ top: 70px;
 
         // Chama a função para configurar a política de segurança de conteúdo
         setContentSecurityPolicy();
-
-
-
-        // Defina um cookie com nome "meuCookie" e valor "exemploValor"
-document.cookie = "meuCookie=exemploValor";
-
-// Adicione um cookie com data de expiração (por exemplo, expirando em 1 dia)
-const umDiaEmMilissegundos = 24 * 60 * 60 * 1000;
-const dataDeExpiracao = new Date(Date.now() + umDiaEmMilissegundos).toUTCString();
-document.cookie = `meuCookie=valorComExpiracao; expires=${dataDeExpiracao}`;
-
 </script>
 </body>
 </html>
