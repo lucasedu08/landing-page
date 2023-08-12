@@ -8,6 +8,10 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="retrato.css" media="screen and (orientation: portrait)">
 <link rel="shortcut icon" href="icons8-mortarboard-16 (1).png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="caminho-para-seu-arquivo-de-estilo-personalizado.css">
+
 <style>
   @media (min-width: 624px) and (max-width: 1290px) {
     *{
@@ -264,6 +268,142 @@ top: 130px;
     top: 650px;
 }
   }
+  .owl-carousel {
+    position: relative;
+max-width: 600px;
+color: #F29A04;
+left: 100px;
+z-index: 1000;
+top: 200px;
+}
+.owl-carousel::before{
+   color: #F29A04;
+}
+nav{
+    color: #F29A04;
+}
+.owl-prev, .owl-next {
+    font-size: 20px;
+    color: #F29A04;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    z-index: 1000;
+    background-color: #ffa200;
+  }
+  
+  .owl-prev:before, .owl-next:before {
+    content: "";
+  }
+  .item{
+    z-index: 1000;
+    max-width: 400px;
+    display: block;
+  }
+  .owl-prev {
+    left: -30px;
+    color: #F29A04;
+    background-color: #da3030;
+  }
+  
+  .owl-next {
+    right: -30px;
+    color: #F29A04;
+    background-color: #ab1a1a;
+  }
+  
+  .owl-prev:hover, .owl-next:hover {
+    color: #F29A04;
+    background-color: transparent;
+  }
+  
+  .owl-prev span, .owl-next span {
+    color: #F29A04 !important; /* Substitua pela cor desejada */
+    background-color: transparent !important;
+    font-size: 4em !important;
+    font-family: 'Barlow', sans-serif !important;
+  }
+  .owl-prev,
+.owl-next {
+    font-size: 20px;
+    color: #F29A04;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    z-index: 1000;
+    background-color: #ffa200;
+}
+
+.owl-prev:before,
+.owl-next:before {
+    content: "";
+}
+
+
+.owl-prev {
+    left: -30px;
+    color: #F29A04;
+    background-color: #da3030;
+}
+
+.owl-next {
+  right: -30px;
+  color: #F29A04;
+  background-color: #ab1a1a;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    color: #F29A04;
+    background-color:  transparent; 
+}
+.owl-prev span,
+.owl-next span {
+  color: #F29A04 !important; /* Substitua pela cor desejada */
+
+  background-color: transparent !important;
+  font-size: 4em !important;
+  font-family: 'Barlow', sans-serif !important;
+}
+.owl-carousel .owl-item img {
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.owl-carousel {
+    position: relative;
+    max-width: 100px;
+    color: #F29A04;
+    left: 600px;
+    z-index: 1000;
+}
 
 </style>
 </head>
@@ -294,19 +434,6 @@ top: 130px;
     <div class="div-3"><img class="img-6" src="imagens/11062b_c9f13161257642bd824163590c020c52.svg" alt=""></div>
    <br> <p class="p-3">
     Apresentando o <strong class="strong-1"><abbr class="custom-tooltip" title=" Instituto Harmonia. Adobe Illustrator. Iniciantes e profissionais.">ILLUSTRATOR PRO</abbr></strong> do Instituto Harmonia, um treinamento completo para que você domine a ilustração vetorial, mesmo sem qualquer conhecimento prévio! Torne-se um especialista neste software,</abbr></strong>
-
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
     <div class="strong-2"></div>
     </p> <br><br>
     <p class="p-5">Contatos:</p>
@@ -329,7 +456,7 @@ top: 130px;
 
 
 <div class="infor">
-    <h1   class="h1-oferecidos">Cursos Oferecidos</h1>
+    <h1   class="h1-oferecidos" >Cursos Oferecidos</h1>
     <br>
 
 
@@ -360,8 +487,31 @@ top: 130px;
 
 
 </div>
+<div class="div-avaliações">
+    <h2 style="color: #ffa200; font-size: 3em; text-align: center;">Preços dos Cursos</h2>
+    
+    <div class="preço-1">
+        <h3 class="h2-preco-1">Curso de Design Gráfico</h3>
+        <p class="p-preco-1">Preço: <s><strong>R$ 199,58</strong></s></p>
+    </div>
+    
+    <div class="preço-2">
+        <h3 class="h2-preco-2">Curso de Ilustração Digital</h3>
+        <p class="p-preco-2">Preço: <s><strong>R$ 229,99</strong></s></p>
+    </div>
+    
+    <div class="preço-3" >
+        <h3 class="h2-preco-3">Curso de Web Design Responsivo</h3>
+        <p class="p-preco-3">Preço: <s>R$ 349,99</s></p>
+    </div>
+    <img class="imagem-elemento-1" src="imagens/70804f7e25b11f29db904f2fa7b4cd9d.gif" alt="">
+
+    <a href="" class="a-2">Adquira Já!</a>
+</div>
 
 
+
+</div>
 
 
 <script>
@@ -386,6 +536,15 @@ top: 130px;
 
         // Chama a função para configurar a política de segurança de conteúdo
         setContentSecurityPolicy();
+
+        $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        items: true,
+        nav: true,
+        // Configurações adicionais do carrossel podem ser adicionadas aqui
+      });
+    });
 </script>
 </body>
 </html>
