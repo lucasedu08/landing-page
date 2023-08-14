@@ -537,7 +537,7 @@ font-weight: bolder;
     top: 18px;
 }
 
-.a-watts:hover:target .seta {
+.a-watts:hover .seta {
     position: absolute;
     display: inline;
     left: 264px;
