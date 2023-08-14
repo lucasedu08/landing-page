@@ -528,7 +528,7 @@ left: -75px;
         .imagem-elemento-1{
             position: relative;
             top: 800px;
-            z-index: -1;
+            z-index: 1000;
             max-width: 309px;
             display: flex;
             border-radius: 20px;
