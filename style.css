@@ -166,7 +166,7 @@ background-color: #313030;
     color: rgb(255, 255, 255);  
 }
 .fim{
-    background-color: #000000;
+background-image: url(de37acc23a1971294a020fffca413867.gif);
     position: absolute;
     height: 900px;
     top: 3400px;
@@ -370,6 +370,14 @@ top: 130px;
     left: 900px;
     top: 700px;
 }
+.h2-contatos{
+    position: absolute;
+    color: #F29A04;
+    font-family: 'Barlow', sans-serif;
+    font-size: 3em;
+    top: 200px;
+    left: 20px;
+}
 .p-1{
     position: relative;
     font-size: 18px;
@@ -455,12 +463,14 @@ top: 180px;
             top: 750px;
             z-index: 1000px;
         }
-            .p-7{
+            .p-contatos{
+                position: absolute;
+                font-family: 'Barlow', sans-serif;
+                font-size: 1.6em;
 
-            }
-                .p-7{
-
-                }
+                top: 340px;
+                left: 25px;
+            }       
 .a-1{
     display: block;
     position: relative;
@@ -496,14 +506,54 @@ font-weight: bolder;
 transition-duration: .9s;
 font-weight: bolder;
 }
-.a-watts{
+.a-watts {
+    display: grid;
     position: relative;
-    background-color: rgb(149, 222, 39);
-    color: rgb(0, 0, 0);
+    background-color: #66FE6D;
+    border-radius: 0px solid black;
+    color: rgba(0, 0, 0, 0.852);
     text-decoration: none;
-    padding: 15px;
-    border-radius: 5px;
-top: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    top: 425px;
+    left: -484px;
+    width: 300px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3em;
+    transition-duration: .6s;
+    border-radius: 10px;
+}
+
+.a-watts:hover {
+    box-shadow: 0px 1px 30px rgb(63, 129, 68);
+    color: #EAEAEA;
+}
+
+.seta {
+    position: absolute;
+    display: none;
+    left: 264px;
+    top: 18px;
+}
+
+.a-watts:hover .seta {
+    position: absolute;
+    display: inline;
+    left: 264px;
+    top: 18px;
+}
+
+
+
+.img-wats{
+    background-color: #66FE6D;
+    display: block;
+    position: relative;
+    max-width: 25px;
+    top: 375px;
+    z-index: 1000;
+    left: 60px;
 }
 .strong-1{
     background-color: aqua;
