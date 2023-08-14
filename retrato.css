@@ -497,7 +497,7 @@ left: -75px;
             top: 18px;
         }
         
-        .a-watts:hover .seta {
+        .a-watts:hover:target .seta {
             position: absolute;
             display: inline;
             left: 264px;
