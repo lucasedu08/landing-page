@@ -527,10 +527,10 @@ left: -75px;
 
         .imagem-elemento-1{
             position: relative;
-            top: 800px;
+            top: 850px;
             z-index: 1000;
             max-width: 309px;
             display: flex;
             border-radius: 20px;
-            left: -30px;
+            left: 30px;
         }
