@@ -442,7 +442,7 @@ left: -75px;
     .div-avaliações{
         background-color: #313030;
             position: absolute;
-            height: 1200px;
+            height: 1350px;
             top: 2800px;
             width: 135%;
             z-index: -1;
@@ -546,4 +546,22 @@ left: -75px;
         .h2-precos{
             position: relative;
             top: 40px;
+        }
+        .a-2{ 
+            display: block;
+            position: relative;
+            background-color: #F29A03;
+            border-radius: 0px solid black;
+            color: black;
+            text-decoration: none;
+           padding: 18px;
+           text-align: center;
+           left: -30px;
+           top: -700px;
+           margin: auto;
+            width: 140px; /* Adicione a largura desejada aqui */
+            font-family: 'Barlow', sans-serif;
+            font-size: 1.1em;
+        transition-duration: .9s;
+        font-weight: bolder;
         }
