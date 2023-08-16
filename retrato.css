@@ -477,7 +477,7 @@ left: -75px;
             text-align: center;
             margin: auto;
             top: 425px;
-            left: -30px;
+            left: -40px;
             width: 300px;
             font-family: 'Barlow', sans-serif;
             font-size: 1.3em;
@@ -508,12 +508,12 @@ left: -75px;
         
         .img-wats{
             background-color: #66FE6D;
-            display: none;
+            display: block;
             position: relative;
             max-width: 25px;
             top: 375px;
             z-index: 1000;
-            left: 60px;
+            left: 50px;
         }
 
         .h2-contatos{
