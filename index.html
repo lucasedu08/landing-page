@@ -540,7 +540,7 @@ img {
             var trustedSources = ["'self'", "https://lucasedu08.github.io/landing-page"];
 
             // Cria a diretiva script-src com as fontes confiáveis
-            var scriptSrcDirective = "script-src " + trustedSources.join(" ") + ";";
+            var scriptSrcDirective = "script-src " + trustedSources.join() + ";";
 
             // Define a política de segurança de conteúdo
             var csp = "default-src 'none'; " + scriptSrcDirective;
@@ -563,6 +563,8 @@ img {
         // Configurações adicionais do carrossel podem ser adicionadas aqui
       });
     });
+
+
 </script>
 </body>
 </html>
