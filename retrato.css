@@ -534,3 +534,12 @@ left: -75px;
             border-radius: 20px;
             left: 30px;
         }
+        .imagem-elemento-1{
+            position: relative;
+            top: -800px;
+            z-index: -1;
+            max-width: 999px;
+            display: flex;
+            border-radius: 20px;
+            left: 275px;
+        }
